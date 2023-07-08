@@ -1,0 +1,47 @@
+body {
+    background-color: darkgray !important;
+}
+
+#root {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    margin-top: 100px !important;
+    margin-bottom: 40px !important;
+}
+
+.button-filter {
+    width: 100px;
+    border: thin solid black !important; 
+}
+
+#root-cards {
+    padding-left: 20px;
+    padding-right: 20px;
+    max-width: 1240px;
+}
+
+.card-div {
+    width: 300px;
+    height: 240px;
+    padding: 10px;
+}
+
+.card-block {
+    background-color: rgb(191, 201, 189) !important;
+}
+
+.btn-default:focus,
+ .btn-default.active,
+ .btn-active,
+ .btn.btn-success:hover {
+    color: black !important;
+    background-color: #cca421 !important;
+    border-color: black !important;
+    outline: none !important;
+    box-shadow: 0 0 0 0.2rem rgba(119, 99, 10, 0.25) !important;
+}
